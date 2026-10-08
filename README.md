@@ -6,6 +6,8 @@ The FPGA is a Gowin GW5A-25 (`GW5A-EV25UG256`). The stock console firmware stays
 
 These projects are unofficial. They are not from ModRetro.
 
+How the FPGA and the ESP32 split the console is written up in [docs/chromatic-architecture.md](docs/chromatic-architecture.md).
+
 ## Projects
 
 The three projects share the same board files and the same LCD, audio, USB, and menu logic. The picture and sound you see come from [`emu_system_top.v`](01-lcd/src/rtl/EMU/emu_system_top.v) in each directory.
