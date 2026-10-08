@@ -1,0 +1,54 @@
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# Editors
+*~
+*.swp
+*.swo
+.idea/
+.vscode/
+*.code-workspace
+
+# Gowin EDA user/session state (window layout, last run results).
+# Keep the project file (*.gprj) and constraints (*.cst, *.sdc).
+*.gprj.user
+*.user
+*.gprj.bak
+*.bak
+*.log
+*.lic
+
+# Synthesis, place-and-route, reports, bitstream.
+# Keep impl/*_process_config.json — it is the IDE/CLI option source
+# read by each sample's build_options.tcl.
+**/impl/gwsynthesis/
+**/impl/pnr/
+**/impl/temp/
+**/impl/gao/
+
+# Bitstream copies from build_evt1_x2.sh
+*/build/
+
+# Gowin bitstream. Do not ignore *.bin globally (src has regs.bin).
+*.fs
+
+# Simulation dumps
+*.vcd
+*.fst
+*.ghw
+obj_dir/
+
+# Python helpers
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ESP-IDF (if an MCU tree is added later)
+managed_components/
+sdkconfig
+sdkconfig.old
